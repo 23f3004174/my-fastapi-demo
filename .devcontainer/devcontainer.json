@@ -1,0 +1,11 @@
+﻿{
+  "name": "my-fastapi-env",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "extensions": [
+    "ms-python.python",
+    "astral-sh.uv"
+  ],
+  "postCreateCommand": "uv pip install fastapi"
+}
